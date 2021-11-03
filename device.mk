@@ -473,6 +473,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
+# UClamp
+PRODUCT_PACKAGES += \
+    init.uclamp.rc
+
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service
