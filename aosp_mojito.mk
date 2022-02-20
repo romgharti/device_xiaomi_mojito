@@ -12,10 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Inherit some common Komodo OS stuff.
-$(call inherit-product, vendor/komodo/config/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := komodo_mojito
+PRODUCT_NAME := aosp_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
