@@ -272,6 +272,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# Lawnchair
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.mojito
