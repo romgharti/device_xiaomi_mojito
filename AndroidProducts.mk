@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mojito.mk
+    $(LOCAL_DIR)/lighthouse_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mojito-user \
-    aosp_mojito-userdebug \
-    aosp_mojito-eng
+    lighthouse_mojito-user \
+    lighthouse_mojito-userdebug \
+    lighthouse_mojito-eng
