@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
 # Inherit some common lighthouse OS stuff.
-$(call inherit-product, vendor/lighthouse/common.mk)
+$(call inherit-product, vendor/lighthouse/config/common.mk)
 
 # Product Specifics
 PRODUCT_NAME := lighthouse_mojito
