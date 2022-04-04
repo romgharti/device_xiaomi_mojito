@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common lighthouse OS stuff.
-$(call inherit-product, vendor/lighthouse/config/common.mk)
+# Inherit some common bootleggers OS stuff.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Product Specifics
-PRODUCT_NAME := lighthouse_mojito
+PRODUCT_NAME := bootleg_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10

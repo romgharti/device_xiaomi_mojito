@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lighthouse_mojito.mk
+    $(LOCAL_DIR)/bootleg_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    lighthouse_mojito-user \
-    lighthouse_mojito-userdebug \
-    lighthouse_mojito-eng
+    bootleg_mojito-user \
+    bootleg_mojito-userdebug \
+    bootleg_mojito-eng
