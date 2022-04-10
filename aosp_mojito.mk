@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common AEX OS stuff.
+# Inherit some common project acrana OS stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Product Specifics
