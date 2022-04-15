@@ -326,6 +326,9 @@ PRODUCT_COPY_FILES += \
     hardware/qcom-caf/sm8150/media/conf_files/sm6150/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     hardware/qcom-caf/sm8150/media/conf_files/sm6150/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml
 
+# Micro G
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 # MIUICamera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
 
