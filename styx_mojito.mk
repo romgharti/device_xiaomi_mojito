@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common AEX OS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common styx OS stuff.
+$(call inherit-product, vendor/styx/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := aosp_mojito
+PRODUCT_NAME := styx_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
