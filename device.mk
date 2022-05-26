@@ -105,7 +105,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Audio Motodolby Config
 PRODUCT_COPY_FILES += \
-    device/xiaomi/vayu/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+    device/xiaomi/mojito/configs/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
 
 # Bluetooth
 PRODUCT_PACKAGES += \
