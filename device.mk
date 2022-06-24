@@ -97,7 +97,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.dolby.ds2.enabled=false \
     vendor.audio.dolby.ds2.hardbypass=false \
     persist.vendor.audio_fx.current=dolby \
-    ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1
+    ro.vendor.dolby.dax.version=DS1_2.2.0.0_r1 \
+    ro.audio.monitorRotation=true
 
 # Audio Motodolby Config
 PRODUCT_COPY_FILES += \
