@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mojito.mk
+    $(LOCAL_DIR)/superior_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mojito-user \
-    aosp_mojito-userdebug \
-    aosp_mojito-eng
+    superior_mojito-user \
+    superior_mojito-userdebug \
+    superior_mojito-eng
