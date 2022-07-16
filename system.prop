@@ -1,6 +1,3 @@
-#ADB
-ro.adb.secure.recovery=0
-
 # Bluetooth
 vendor.bluetooth.soc=cherokee
 persist.vendor.btstack.enable.twsplus=true
