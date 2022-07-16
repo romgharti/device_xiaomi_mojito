@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mojito.mk
+    $(LOCAL_DIR)/p404_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_mojito-user \
-    aosp_mojito-userdebug \
-    aosp_mojito-eng
+    p404_mojito-user \
+    p404_mojito-userdebug \
+    p404_mojito-eng
