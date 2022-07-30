@@ -11,18 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common AEX OS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common bootleggers ROM stuff.
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
 # Product Specifics
-PRODUCT_NAME := aosp_mojito
+PRODUCT_NAME := bootleg_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
 PRODUCT_MANUFACTURER := Xiaomi
-
-# Official status
-EXTENDED_BUILD_TYPE := OFFICIAL
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
