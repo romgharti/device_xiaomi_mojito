@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_mojito.mk
+    $(LOCAL_DIR)/evolution_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_mojito-user \
-    superior_mojito-userdebug \
-    superior_mojito-eng
+    evolution_mojito-user \
+    evolution_mojito-userdebug \
+    evolution_mojito-eng
