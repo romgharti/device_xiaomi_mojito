@@ -11,11 +11,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some common SuperiorOS ROM stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common DerpFest ROM stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Product Specifics
-PRODUCT_NAME := evolution_mojito
+PRODUCT_NAME := derp_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
